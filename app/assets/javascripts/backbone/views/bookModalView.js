@@ -1,4 +1,4 @@
- App.Views.BookModalView = Backbone.View.extend({
+App.Views.BookModalView = Backbone.View.extend({
 	el: '#popup_book',
 	initialize: function(){
 		this.template = HandlebarsTemplates['bookModal'];
